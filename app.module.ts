@@ -10,6 +10,7 @@ import { StructuralDirDirective } from './directive/structural-dir.directive';
 
 import { InfoCardComponent } from './directive/info-card.component';
 import { SwitchComponent } from './ngSwitch/switch/switch.component';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { SwitchComponent } from './ngSwitch/switch/switch.component';
     ImageZoomDirective,
     StructuralDirDirective,
     InfoCardComponent,
-    SwitchComponent
+    SwitchComponent,
+    CalculatorComponent
 
   ],
   imports: [
